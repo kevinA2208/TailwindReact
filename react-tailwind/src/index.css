@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.buttons{
+  @apply w-2/6 h-11 bg-orange-100 mt-6 rounded-full text-black italic hover:not-italic hover:bg-orange-300 ;
+}
+
+.textos{
+    @apply italic text-xl mb-6
+}
